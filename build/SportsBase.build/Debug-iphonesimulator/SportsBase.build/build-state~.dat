@@ -1,0 +1,207 @@
+TSportsBase
+v7
+r0
+t342907265.706955
+cCheck dependencies
+cProcessInfoPlistFile /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/Info.plist SportsBase-Info.plist
+cCompileXIB /Users/craigtaub/Documents/SportsBase/MainWindow.xib
+cProcessPCH /var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch.gch SportsBase_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/main.o /Users/craigtaub/Documents/SportsBase/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBaseAppDelegate.o /Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase normal i386
+cGenerateDSYMFile /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app.dSYM /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase
+cTouch /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.h
+c000000004EC021FD0000000000000151
+t1321214461
+s337
+i<UIKit/UIKit.h>
+
+N/Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m
+c000000004EC021FD00000000000009DB
+t1321214461
+s2523
+i"SportsBaseAppDelegate.h"
+
+N/Users/craigtaub/Documents/SportsBase/MainWindow.xib
+c000000004EC021FD0000000000002117
+t1321214461
+s8471
+
+N/Users/craigtaub/Documents/SportsBase/SportsBase_Prefix.pch
+c000000004EC021FD00000000000000BD
+t1321214461
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app
+t1321214465
+s204
+
+N/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app.dSYM
+t1321214465
+s102
+
+N/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/Info.plist
+t1321214463
+s603
+
+N/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/MainWindow.nib
+t1321214464
+s987
+
+N/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/PkgInfo
+t1321214464
+s8
+
+N/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase
+t1321214465
+s15712
+
+N/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBase.LinkFileList
+c000000004EC021FF000000000000010F
+t1321214463
+s271
+
+N/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBaseAppDelegate.o
+t1321214465
+s49432
+
+N/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/main.o
+t1321214465
+s6300
+
+N/Users/craigtaub/Documents/SportsBase/main.m
+c000000004EC021FD000000000000016D
+t1321214461
+s365
+i<UIKit/UIKit.h>
+
+N/var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch.gch
+t1321214465
+s15453392
+
+NSportsBase-Info.plist
+c000000004EC021FD000000000000038D
+t1321214461
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies342907263#342907263#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBaseAppDelegate.o /Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s342907265.559786
+e342907265.664835
+r1
+xCompileC
+xbuild/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBaseAppDelegate.o
+x/Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m342907265#342907265#0(0"0(0#0#69"/Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m8600280576#2005"    cd /Users/craigtaub/Documents/SportsBase    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-generated-files.hmap -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-own-target-headers.hmap -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-all-target-headers.hmap -iquote /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-project-headers.hmap -F/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator -I/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/include -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/DerivedSources/i386 -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/DerivedSources -include /var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch -c /Users/craigtaub/Documents/SportsBase/Classes/SportsBaseAppDelegate.m -o /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBaseAppDelegate.o0#
+
+CCompileC build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/main.o /Users/craigtaub/Documents/SportsBase/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s342907265.558488
+e342907265.630825
+r1
+xCompileC
+xbuild/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/main.o
+x/Users/craigtaub/Documents/SportsBase/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/craigtaub/Documents/SportsBase/main.m342907265#342907265#0(0"0(0#0#44"/Users/craigtaub/Documents/SportsBase/main.m8599366432#1963"    cd /Users/craigtaub/Documents/SportsBase    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-generated-files.hmap -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-own-target-headers.hmap -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-all-target-headers.hmap -iquote /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-project-headers.hmap -F/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator -I/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/include -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/DerivedSources/i386 -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/DerivedSources -include /var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch -c /Users/craigtaub/Documents/SportsBase/main.m -o /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/craigtaub/Documents/SportsBase/MainWindow.xib
+s342907264.025290
+e342907264.703211
+r1
+xCompileXIB
+x/Users/craigtaub/Documents/SportsBase/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib342907264#342907264#0(0"0(0#0#52"/Users/craigtaub/Documents/SportsBase/MainWindow.xib8600202208#570"    cd /Users/craigtaub/Documents/SportsBase    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/MainWindow.nib /Users/craigtaub/Documents/SportsBase/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app.dSYM /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase
+s342907265.690009
+e342907265.703683
+r1
+xGenerateDSYMFile
+x/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app.dSYM
+x/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/SportsBase.app.dSYM build/Debug-iphonesimulator/SportsBase.app/SportsBase342907265#342907265#0(0"0(0#0#91"/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase8605427008#389"    cd /Users/craigtaub/Documents/SportsBase    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase -o /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app.dSYM0#
+
+CLd /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase normal i386
+s342907265.664925
+e342907265.689915
+r1
+xLd
+x/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase
+xnormal
+xi386
+lSLF07#2@96"Link /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase342907265#342907265#0(0"0(0#0#0"8602740096#910"    cd /Users/craigtaub/Documents/SportsBase    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator -F/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator -filelist /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/Objects-normal/i386/SportsBase.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/SportsBase0#
+
+CProcessInfoPlistFile /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/Info.plist SportsBase-Info.plist
+s342907263.992668
+e342907264.025208
+r1
+xProcessInfoPlistFile
+x/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/Info.plist
+xSportsBase-Info.plist
+lSLF07#2@29"Process SportsBase-Info.plist342907263#342907264#0(0"0(0#0#59"/Users/craigtaub/Documents/SportsBase/SportsBase-Info.plist8602752800#485"    cd /Users/craigtaub/Documents/SportsBase    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SportsBase-Info.plist -genpkginfo /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app/Info.plist0#
+
+CProcessPCH /var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch.gch SportsBase_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s342907264.703332
+e342907265.558327
+r1
+xProcessPCH
+x/var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch.gch
+xSportsBase_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile SportsBase_Prefix.pch342907264#342907265#0(0"0(0#0#59"/Users/craigtaub/Documents/SportsBase/SportsBase_Prefix.pch8604659104#1853"    cd /Users/craigtaub/Documents/SportsBase    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-generated-files.hmap -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-own-target-headers.hmap -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-all-target-headers.hmap -iquote /Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/SportsBase-project-headers.hmap -F/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator -I/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/include -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/DerivedSources/i386 -I/Users/craigtaub/Documents/SportsBase/build/SportsBase.build/Debug-iphonesimulator/SportsBase.build/DerivedSources -c /Users/craigtaub/Documents/SportsBase/SportsBase_Prefix.pch -o /var/folders/6z/6zaazCxgHMOhtTgmHrY1-++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SportsBase_Prefix-eesoullxcnrnupcghkwwekdvboeb/SportsBase_Prefix.pch.gch0#
+
+CTouch /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app
+s342907265.703772
+e342907265.706912
+r1
+xTouch
+x/Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app
+lSLF07#2@86"Touch /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app342907265#342907265#0(0"0(0#0#0"8605192032#279"    cd /Users/craigtaub/Documents/SportsBase    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/craigtaub/Documents/SportsBase/build/Debug-iphonesimulator/SportsBase.app0#
+

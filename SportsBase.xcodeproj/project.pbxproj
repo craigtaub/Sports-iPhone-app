@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		C305ED601475C90E004E0D7C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C305ED5F1475C90E004E0D7C /* Icon.png */; };
+		C33F26CA147459E00090DB5C /* sportsbase-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C33F26C9147459E00090DB5C /* sportsbase-logo.png */; };
+		C33F26D014745C040090DB5C /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C33F26CF14745C040090DB5C /* green_bg.png */; };
+		C33F2751147471AF0090DB5C /* box-bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = C33F2750147471AF0090DB5C /* box-bkg.png */; };
+		C35C542014773D8C00B90790 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C35C541E14773D8C00B90790 /* FirstViewController.m */; };
+		C35C542114773D8C00B90790 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C35C541F14773D8C00B90790 /* RootViewController.xib */; };
+		C36A7FAB1472F4D200B085AA /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A7FA21472F4D200B085AA /* NSObject+SBJSON.m */; };
+		C36A7FAC1472F4D200B085AA /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A7FA41472F4D200B085AA /* NSString+SBJSON.m */; };
+		C36A7FAD1472F4D200B085AA /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A7FA61472F4D200B085AA /* SBJsonBase.m */; };
+		C36A7FAE1472F4D200B085AA /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A7FA81472F4D200B085AA /* SBJsonParser.m */; };
+		C36A7FAF1472F4D200B085AA /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C36A7FAA1472F4D200B085AA /* SBJsonWriter.m */; };
+		C3B174E0147059B000AC74A4 /* NavAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B174DB147059B000AC74A4 /* NavAppAppDelegate.m */; };
+		C3B174E1147059B000AC74A4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B174DD147059B000AC74A4 /* RootViewController.m */; };
+		C3B174E2147059B000AC74A4 /* ViewTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B174DF147059B000AC74A4 /* ViewTwoController.m */; };
+		C3B174E5147059C400AC74A4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B174E4147059C400AC74A4 /* MainWindow.xib */; };
+		C3B174E7147059C900AC74A4 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B174E6147059C900AC74A4 /* FirstViewController.xib */; };
+		C3B174E9147059CE00AC74A4 /* View2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B174E8147059CE00AC74A4 /* View2.xib */; };
+		C3B174F7147059EC00AC74A4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B174F5147059EC00AC74A4 /* TableViewController.m */; };
+		C3B174F8147059EC00AC74A4 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B174F6147059EC00AC74A4 /* TableViewController.xib */; };
+		C3C5D4141475B71C003B920F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C5D4121475B71C003B920F /* SecondViewController.m */; };
+		C3C5D4151475B71C003B920F /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3C5D4131475B71C003B920F /* SecondViewController.xib */; };
+		C3DE478D147C60480025E71F /* football.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3DE478C147C60480025E71F /* football.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* SportsBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SportsBase_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportsBase_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SportsBase-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SportsBase-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C305ED5F1475C90E004E0D7C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C33F26C9147459E00090DB5C /* sportsbase-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sportsbase-logo.png"; sourceTree = "<group>"; };
+		C33F26CF14745C040090DB5C /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_bg.png; sourceTree = "<group>"; };
+		C33F2750147471AF0090DB5C /* box-bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-bkg.png"; sourceTree = "<group>"; };
+		C35C541D14773D8C00B90790 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C35C541E14773D8C00B90790 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C35C541F14773D8C00B90790 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
+		C36A7FA01472F4D200B085AA /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C36A7FA11472F4D200B085AA /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		C36A7FA21472F4D200B085AA /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		C36A7FA31472F4D200B085AA /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		C36A7FA41472F4D200B085AA /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		C36A7FA51472F4D200B085AA /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		C36A7FA61472F4D200B085AA /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		C36A7FA71472F4D200B085AA /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C36A7FA81472F4D200B085AA /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C36A7FA91472F4D200B085AA /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C36A7FAA1472F4D200B085AA /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C3B174DA147059B000AC74A4 /* NavAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavAppAppDelegate.h; sourceTree = "<group>"; };
+		C3B174DB147059B000AC74A4 /* NavAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavAppAppDelegate.m; sourceTree = "<group>"; };
+		C3B174DC147059B000AC74A4 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C3B174DD147059B000AC74A4 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C3B174DE147059B000AC74A4 /* ViewTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTwoController.h; sourceTree = "<group>"; };
+		C3B174DF147059B000AC74A4 /* ViewTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTwoController.m; sourceTree = "<group>"; };
+		C3B174E4147059C400AC74A4 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C3B174E6147059C900AC74A4 /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		C3B174E8147059CE00AC74A4 /* View2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View2.xib; sourceTree = "<group>"; };
+		C3B174F4147059EC00AC74A4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C3B174F5147059EC00AC74A4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C3B174F6147059EC00AC74A4 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewController.xib; path = Classes/TableViewController.xib; sourceTree = "<group>"; };
+		C3C5D4111475B71C003B920F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C3C5D4121475B71C003B920F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C3C5D4131475B71C003B920F /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SecondViewController.xib; path = Classes/SecondViewController.xib; sourceTree = "<group>"; };
+		C3DE478C147C60480025E71F /* football.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = football.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C36A7F9F1472F4D200B085AA /* JSON */,
+				C3B174F4147059EC00AC74A4 /* TableViewController.h */,
+				C3B174F5147059EC00AC74A4 /* TableViewController.m */,
+				C3B174DA147059B000AC74A4 /* NavAppAppDelegate.h */,
+				C3B174DB147059B000AC74A4 /* NavAppAppDelegate.m */,
+				C3B174DC147059B000AC74A4 /* RootViewController.h */,
+				C3B174DD147059B000AC74A4 /* RootViewController.m */,
+				C3B174DE147059B000AC74A4 /* ViewTwoController.h */,
+				C3B174DF147059B000AC74A4 /* ViewTwoController.m */,
+				C3C5D4111475B71C003B920F /* SecondViewController.h */,
+				C3C5D4121475B71C003B920F /* SecondViewController.m */,
+				C35C541D14773D8C00B90790 /* FirstViewController.h */,
+				C35C541E14773D8C00B90790 /* FirstViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SportsBase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SportsBase_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3B174E4147059C400AC74A4 /* MainWindow.xib */,
+				C3DE478C147C60480025E71F /* football.jpg */,
+				C3B174E6147059C900AC74A4 /* FirstViewController.xib */,
+				C35C541F14773D8C00B90790 /* RootViewController.xib */,
+				C33F26CF14745C040090DB5C /* green_bg.png */,
+				C305ED5F1475C90E004E0D7C /* Icon.png */,
+				C3C5D4131475B71C003B920F /* SecondViewController.xib */,
+				C33F2750147471AF0090DB5C /* box-bkg.png */,
+				C33F26C9147459E00090DB5C /* sportsbase-logo.png */,
+				C3B174F6147059EC00AC74A4 /* TableViewController.xib */,
+				C3B174E8147059CE00AC74A4 /* View2.xib */,
+				8D1107310486CEB800E47090 /* SportsBase-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C36A7F9F1472F4D200B085AA /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C36A7FA01472F4D200B085AA /* JSON.h */,
+				C36A7FA11472F4D200B085AA /* NSObject+SBJSON.h */,
+				C36A7FA21472F4D200B085AA /* NSObject+SBJSON.m */,
+				C36A7FA31472F4D200B085AA /* NSString+SBJSON.h */,
+				C36A7FA41472F4D200B085AA /* NSString+SBJSON.m */,
+				C36A7FA51472F4D200B085AA /* SBJsonBase.h */,
+				C36A7FA61472F4D200B085AA /* SBJsonBase.m */,
+				C36A7FA71472F4D200B085AA /* SBJsonParser.h */,
+				C36A7FA81472F4D200B085AA /* SBJsonParser.m */,
+				C36A7FA91472F4D200B085AA /* SBJsonWriter.h */,
+				C36A7FAA1472F4D200B085AA /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SportsBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SportsBase" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsBase;
+			productName = SportsBase;
+			productReference = 1D6058910D05DD3D006BFB54 /* SportsBase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SportsBase" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SportsBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B174E5147059C400AC74A4 /* MainWindow.xib in Resources */,
+				C3B174E7147059C900AC74A4 /* FirstViewController.xib in Resources */,
+				C3B174E9147059CE00AC74A4 /* View2.xib in Resources */,
+				C3B174F8147059EC00AC74A4 /* TableViewController.xib in Resources */,
+				C33F26CA147459E00090DB5C /* sportsbase-logo.png in Resources */,
+				C33F26D014745C040090DB5C /* green_bg.png in Resources */,
+				C33F2751147471AF0090DB5C /* box-bkg.png in Resources */,
+				C3C5D4151475B71C003B920F /* SecondViewController.xib in Resources */,
+				C305ED601475C90E004E0D7C /* Icon.png in Resources */,
+				C35C542114773D8C00B90790 /* RootViewController.xib in Resources */,
+				C3DE478D147C60480025E71F /* football.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				C3B174E0147059B000AC74A4 /* NavAppAppDelegate.m in Sources */,
+				C3B174E1147059B000AC74A4 /* RootViewController.m in Sources */,
+				C3B174E2147059B000AC74A4 /* ViewTwoController.m in Sources */,
+				C3B174F7147059EC00AC74A4 /* TableViewController.m in Sources */,
+				C36A7FAB1472F4D200B085AA /* NSObject+SBJSON.m in Sources */,
+				C36A7FAC1472F4D200B085AA /* NSString+SBJSON.m in Sources */,
+				C36A7FAD1472F4D200B085AA /* SBJsonBase.m in Sources */,
+				C36A7FAE1472F4D200B085AA /* SBJsonParser.m in Sources */,
+				C36A7FAF1472F4D200B085AA /* SBJsonWriter.m in Sources */,
+				C3C5D4141475B71C003B920F /* SecondViewController.m in Sources */,
+				C35C542014773D8C00B90790 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SportsBase_Prefix.pch;
+				INFOPLIST_FILE = "SportsBase-Info.plist";
+				PRODUCT_NAME = SportsBase;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SportsBase_Prefix.pch;
+				INFOPLIST_FILE = "SportsBase-Info.plist";
+				PRODUCT_NAME = SportsBase;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SportsBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SportsBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

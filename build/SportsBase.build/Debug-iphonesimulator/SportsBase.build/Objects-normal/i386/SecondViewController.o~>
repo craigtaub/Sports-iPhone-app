@@ -1,0 +1,15 @@
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m: In function '-[SecondViewController viewDidLoad]':
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:36: warning: 'UITabBarItem' may not respond to '-setAction:'
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:36: warning: (Messages without a matching method signature
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:36: warning: will be assumed to return 'id' and accept
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:36: warning: '...' as arguments.)
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:40: warning: class 'SecondViewController' does not implement the 'UITextFieldDelegate' protocol
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m: At top level:
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'tabOne' requires method '-tabOne' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'tabOne' requires the method 'setTabOne:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'tabTwo' requires method '-tabTwo' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'tabTwo' requires the method 'setTabTwo:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'myTab' requires method '-myTab' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'myTab' requires the method 'setMyTab:' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'searchWord' requires method '-searchWord' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/craigtaub/Documents/SportsBase/Classes/SecondViewController.m:123: warning: property 'searchWord' requires the method 'setSearchWord:' to be defined - use @synthesize, @dynamic or provide a method implementation
